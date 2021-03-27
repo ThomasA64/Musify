@@ -1,10 +1,12 @@
 const express = require("express");
 const cors = require("cors");
 const SpotifyWebApi = require("spotify-web-api-node");
+const lyricsFinder = require("lyricsFinder");
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(express.urlendcoded({ extended: true }));
 
 app.post("/refresh", (req, res) => {
   const refreshToken = req.body.refreshToken;
@@ -49,6 +51,13 @@ app.post("/login", (req, res) => {
     .catch(() => {
       res.sendStatus(400);
     });
+});
+
+app.get("/lyrics", async (req, res) => {
+  const lyrics =
+    (await lyricsFinder(req.query.artist, req.query.track)) ||
+    "No Lyrics Found";
+  res.json({ lyrics });
 });
 
 app.listen(3001);
