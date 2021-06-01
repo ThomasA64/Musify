@@ -7,11 +7,10 @@ Hope you enjoy!
 
 # Screenshots:
 
-Homepage:
+![Homepage:]
 (https://github.com/ThomasA64/Musify/blob/main/server/screenshots/Musify-Home-Page.png?raw=true)
 
-Search Functionality:
+![Search Functionality:]
 (https://github.com/ThomasA64/Musify/blob/main/server/screenshots/Search-Functionality.png?raw=true)
 
-Lyrics Displayed:
-(https://github.com/ThomasA64/Musify/blob/main/server/screenshots/Search-Functionality.png?raw=true)
+![Lyrics Displayed:] (https://github.com/ThomasA64/Musify/blob/main/server/screenshots/Search-Functionality.png?raw=true)
