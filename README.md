@@ -5,12 +5,10 @@ to create a Spotify-like App to play music and display lyrics when a song is pla
 
 Hope you enjoy!
 
-# Screenshots:
+## Screenshots:
 
-![Homepage:]
-(https://github.com/ThomasA64/Musify/blob/main/server/screenshots/Musify-Home-Page.png?raw=true)
+!["Homepage:"](https://github.com/ThomasA64/Musify/blob/main/server/screenshots/Musify-Home-Page.png?raw=true)
 
-![Search Functionality:]
-(https://github.com/ThomasA64/Musify/blob/main/server/screenshots/Search-Functionality.png?raw=true)
+!["Search Functionality:"](https://github.com/ThomasA64/Musify/blob/main/server/screenshots/Search-Functionality.png?raw=true)
 
-![Lyrics Displayed:] (https://github.com/ThomasA64/Musify/blob/main/server/screenshots/Search-Functionality.png?raw=true)
+!["Lyrics Displayed:"](https://github.com/ThomasA64/Musify/blob/main/server/screenshots/Search-Functionality.png?raw=true)
